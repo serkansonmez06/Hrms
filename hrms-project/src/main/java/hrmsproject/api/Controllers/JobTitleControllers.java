@@ -14,13 +14,13 @@ import hrmsproject.entity.concretes.JobTitle;
 
 @RestController
 @RequestMapping("hrms/jobtitles")
-public class JobTitleContrellers {
+public class JobTitleControllers {
 
 	
 	private JobTitleService jobTitleService;
 	
 	@Autowired
-	public JobTitleContrellers(JobTitleService jobTitleService) {
+	public JobTitleControllers(JobTitleService jobTitleService) {
 		super();
 		this.jobTitleService = jobTitleService;
 	}
